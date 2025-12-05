@@ -4,6 +4,7 @@ This project automates the employee onboarding workflow using AWS Lambda and UiP
 
 ## Components
 
+* **function url** - https://3u2xdr74yfylyygghm5tbtr46i0xrnib.lambda-url.us-east-1.on.aws/
 * **index.js** – AWS Lambda function that fetches employee data, assigns priority (High/Normal/Low), and pushes items into the **New Hires** Orchestrator queue.
 * **Main.xaml** – Entry point for the UiPath process.
 * **WebForm.xaml** – Enters employee data into `https://rpachallenge.com/` for High Priority items.
