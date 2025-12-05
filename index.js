@@ -1,5 +1,5 @@
 //Function to add Employee Details to Orchestrator Queue: New Hires.
-//Function url: https://3u2xdr74yfylyygghm5tbtr46i0xrnib.lambda-url.us-east-1.on.aws/
+
 
 import https from "https";
 
