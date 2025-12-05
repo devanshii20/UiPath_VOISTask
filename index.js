@@ -111,10 +111,10 @@ export const handler = async () => {
     const failures = [];
 
         // --- UiPath Config ---
-    const ORCHESTRATOR_URL = "https://cloud.uipath.com/automtjavokv/DefaultTenant";
-    const PAT = "rt_4CE3D8CADF076E7977F127FAF312D52F582288E24682503466071CF5E300DF0D-1";
-    const QUEUE_NAME = "New Hires";
-    const FOLDER_ID = 6900516;
+    const ORCHESTRATOR_URL = process.env.ORCHESTRATOR_URL;
+    const PAT = process.env.PAT;
+    const QUEUE_NAME = process.env.QUEUE_NAME;
+    const FOLDER_ID = process.env.FOLDER_ID;
     var Priority = 'Normal'
 
     for (const emp of employees) {
